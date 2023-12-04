@@ -32,7 +32,7 @@ app.Run();
 
 ## Usage in HomeController
 ```
-  public class HomeController : Controller
+public class HomeController : Controller
  {
      private readonly ILogger<HomeController> _logger;
      private readonly ISession _session;
